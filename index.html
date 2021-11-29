@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="navi_wrap">
+            <div class="inner">
+                <h1 class="logo"><a href="#">logo</a></h1>
+                <nav class="navi">
+                    <!--<input type="checkbox" id="all_btn" class="hidden">
+                    <label for="all_btn" id="all_menu">
+                        <p>전체메뉴<span class="hamburger"></span></p>
+                    </label>-->
+                    <button id="all_menu" type="button">
+                        <p>전체메뉴<span class="hamburger"></span></p>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        <div id="menu_board">
+            <div class="inner">
+                <ul class="gnb">
+                    <li class="on"><a href="#snb1">about</a></li>
+                    <li><a href="#snb2">company</a></li>
+                    <li><a href="#snb3">project</a></li>
+                    <li><a href="#snb4">community</a></li>
+                    <li><a href="#snb5">location</a></li>
+                </ul>
+                <div class="snb">
+                    <ul id="snb1" class="on">
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                    </ul>
+                    <ul id="snb2">
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                    </ul>
+                    <ul id="snb3">
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                        <li><a href="#">menu3</a></li>
+                        <li><a href="#">menu4</a></li>
+                        <li><a href="#">menu5</a></li>
+                    </ul>
+                    <ul id="snb4">
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                        <li><a href="#">menu3</a></li>
+                        <li><a href="#">menu4</a></li>
+                    </ul>
+                    <ul id="snb5">
+                        <li><a href="#">menu1</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- visual -->
+    <main id="visual" class="clearfix">
+        <div class="txt_wrap">
+            <div class="visual_text">
+                <h2>innovation</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti culpa reiciendis, veritatis labore sit pariatur velit aperiam beatae cum tempora.</p>
+                <a href="#" class="btn_square">Here comes link button</a>
+            </div>
+        </div>
+        <div class="visual_video">
+            <video muted autoplay loop>
+                <source src="./img/visual.mp4" type="video/mp4">
+                <strong>Your browser does not support the video tag.</strong>
+            </video>
+        </div>
+    </main>
+    <!-- // visual -->
+
+    <!-- #news -->
+    <section id="news" class="section">
+        <div class="inner">
+            <h2 class="title">recent news</h2>
+                <div class="wrap_article">
+                    <article class="atc_box news1">
+                        <div class="img"></div>
+                        <h3>Here comes title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae exercitationem ex.</p>
+                    </article>
+                    <article class="atc_box news2">
+                        <div class="img"></div>
+                        <h3>Here comes title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae exercitationem ex.</p>
+                    </article>
+                    <article class="atc_box news3">
+                        <div class="img"></div>
+                        <h3>Here comes title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae exercitationem ex.</p>
+                    </article>
+                    <article class="atc_box news4">
+                        <div class="img"></div>
+                        <h3>Here comes title</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vitae exercitationem ex.</p>
+                    </article>
+                </div>
+        </div>
+    </section>
+    <!-- //#news -->
+
+    <!-- #brand -->
+    <section id="brand" class="section">
+        <div class="inner">
+            <div class="brand_left">
+                <article>
+                    <h3><i class="fas fas fa-barcode"></i>Brand Identity</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste.</p>
+                    <a href="#" class="btn_square">click button</a>
+                </article>
+            </div>
+            <div class="brand_right">
+                <article></article>
+                <article></article>
+                <article></article>
+            </div>
+        </div>
+    </section>
+    <!-- //#brand -->
+
+    <!-- #slogan -->
+    <section id="slogan">
+        <div class="inner">
+            <h2>slogan typography comes here.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam fugiat ipsam necessitatibus quidem ducimus?</p>
+        </div>
+    </section>
+    <!-- //#slogan -->
+
+    <!-- #comment -->
+    <section id="comment" class="section">
+        <div class="inner">
+            <h2 class="title">recent comments</h2>
+            <ul>
+                <li>
+                    <p>Here comes comments of list item and community in default.</p>
+                    <span>2021-07-24</span>
+                </li>
+                <li>
+                    <p>Here comes comments of list item and community in default.</p>
+                    <span>2021-07-24</span>
+                </li>
+                <li>
+                    <p>Here comes comments of list item and community in default.</p>
+                    <span>2021-07-24</span>
+                </li>
+                <li>
+                    <p>Here comes comments of list item and community in default.</p>
+                    <span>2021-07-24</span>
+                </li>
+                <li>
+                    <p>Here comes comments of list item and community in default.</p>
+                    <span>2021-07-24</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- //#comment -->
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="ft_top">
+                <h2>logo</h2>
+                <ul>
+                    <li>
+                        <a href="#"><img src="./img/icon1_insta.png" alt="기업 공식 인스타그램 이동하기"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/icon1_twit.png" alt="기업 공식 트위터 이동하기"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./img/icon1_youtube.png" alt="기업 공식 유튜브 이동하기"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ft_btm">
+                <address>
+                    <p>
+                        <b>Address : </b>172, Sejong-daero, Jongno-gu, Seoul, Republic of Korea
+                    </p>
+                    <p><b>TEL : </b>010-1234-5678</p>
+                </address>
+                <p>copyright &copy; KIM.JuEun All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/common.js"></script>
+</body>
+</html>
